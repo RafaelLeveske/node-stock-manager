@@ -19,6 +19,9 @@
         "prettier"
     ],
     "rules": {
+      "no-useless-constructor":"off",
+      "camelcase":"off",
+      "class-methods-use-this":"off",
       "no-console": "off",
       "prettier/prettier": "error",
 	   	"import/extensions": [
