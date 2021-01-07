@@ -4,7 +4,7 @@ import ICustomersRepository from '@modules/customers/repositories/ICustomersRepo
 import ICreateCustomerDTO from '@modules/customers/dtos/ICreateCustomerDTO';
 import Customer from '../../infra/typeorm/entities/Customer';
 
-export default class FakeCustomerRepository implements ICustomersRepository {
+export default class FakeCustomersRepository implements ICustomersRepository {
   private customers: Customer[] = [];
 
   public async findById(id: string): Promise<Customer | undefined> {
