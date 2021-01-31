@@ -33,6 +33,9 @@ $ yarn test
 
 # Create database
 Create a database with the same name included on ormconfig.json file.
+
+# IInitiate the server
+$ yarn dev:server
 ```
 
 ## ⛏️ Built Using <a name = "built_using"></a>
