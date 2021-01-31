@@ -28,6 +28,9 @@ $ git clone https://github.com/RafaelLeveske/node-stock-manager.git
 # Install dependencies
 $ yarn install
 
+# Apply tests
+$ yarn test
+
 # Create database
 Create a database with the same name included on ormconfig.json file.
 ```
